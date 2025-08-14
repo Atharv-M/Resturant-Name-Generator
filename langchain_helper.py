@@ -5,7 +5,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SimpleSequentialChain
 from langchain.chains import SequentialChain
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC9eXzJNZNtUlNoFyyTBHkLww2LMefw_7s"
+os.environ["GOOGLE_API_KEY"] = "Enter Your API Key"
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro", temperature=0.6)
 name = llm.invoke("I want to open a restaurant for Italian food. Suggest a one fancy name for this. Just a single name not more information")
 
@@ -32,4 +32,5 @@ def generate_resturant_name_and_items(cuisine):
     return response
 
 if __name__=="__main__":
+
     print(generate_resturant_name_and_items("Italian"))
