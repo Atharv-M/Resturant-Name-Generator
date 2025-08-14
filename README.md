@@ -42,8 +42,8 @@ It provides an interactive **Streamlit** interface for quick and fun experimenta
 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/restaurant-name-menu-generator.git
-cd restaurant-name-menu-generator
+git clone https://github.com/Atharv-M/Restaurant-Name-Generator.git
+cd Restaurant-Name-Generator
 ```
 
 2️⃣ Create a virtual environment
